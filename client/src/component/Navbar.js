@@ -27,7 +27,7 @@ const Navbar = () => {
                         <li className="nav-item"><Link to="/stat">Stat</Link></li>
                         <li className="nav-item"><Link to="/calendar">Lịch thi đấu</Link></li>
                         <li className="nav-item"><Link to="/rule">Rule</Link></li>
-                        <li className="nav-item"><Link to='/login'>Đăng Nhập</Link></li>
+                        <li className="nav-item"><Link to='/signin'>Đăng Nhập</Link></li>
                     </ul>
                     
                         

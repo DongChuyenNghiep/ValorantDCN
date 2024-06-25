@@ -12,7 +12,7 @@ import Stat from './pages/stat';
 import Calendar from './pages/calendar';
 import Playoff from './pages/playoff';
 import SignUp from './pages/signup';
-import Login from './pages/login';
+import Login from './pages/signin';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
@@ -27,7 +27,7 @@ root.render(
     <Route path='/calendar' element={<Calendar />} />
     <Route path='/playoff' element={<Playoff />} />
     <Route path='/signup' element = {<SignUp />} />
-    <Route path='/login' element = {<Login/>} />
+    <Route path='/signin' element = {<Login/>} />
   </Routes>
 
     <Footer />
